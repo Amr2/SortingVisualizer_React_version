@@ -1,0 +1,47 @@
+.cont{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    padding: 1rem;
+    height: 90vh;
+}
+.colm{
+    margin: 0 .12rem;
+    padding: .15rem;
+    background: rgb(202, 202, 202);
+    transition: ease all 300ms;
+    & span{
+        color: #131313;
+        font-size: .5rem;
+    }
+
+}
+
+.arrow{
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 5px 0px 5px;
+        border-color: rgb(204, 44, 44) transparent transparent transparent;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+.swaping{
+    outline: solid 1px rgb(221, 221, 55);
+
+}
+.active{
+    outline: solid 1px rgb(86, 45, 199);
+}
+
+.complete{
+    outline: solid 1px rgb(45, 199, 45);
+}

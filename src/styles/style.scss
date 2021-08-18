@@ -1,0 +1,22 @@
+@import "NavBar";
+@import "column";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(202, 202, 202);
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background: #131313;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap ;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
