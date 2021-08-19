@@ -1,0 +1,61 @@
+@media all and (min-width : 700px){
+    :root{
+        --Outline-size:4px;
+    }
+
+    .nav-bar{
+        padding: 1rem;
+        & h1{
+            font-size: 1.3rem;
+        }
+        & .btn{
+            font-size: 1rem;
+            margin: 0 1rem 0 0 ;
+            padding: .9rem .5rem;
+            border-radius: 20px;
+        }
+
+    }
+
+    .colm{
+        padding: .22rem;
+        & p{
+            text-align: center;
+            color: #131313;
+            font-size: .65rem;
+        }
+    
+    }
+}
+@media all and (min-width : 1440px){
+    :root{
+        --Outline-size:8px;
+    }
+
+    .nav-bar{
+        padding: 1.5rem;
+        & h1{
+            font-size: 1.7rem;
+        }
+        & .btn{
+            font-size: 1.5rem;
+            margin: 0 1.2rem 0 0 ;
+            padding: 1rem 1rem;
+            border-radius: 30px;
+        }
+    }
+
+    .arrow{
+        &::before{
+            border-width: 10px 10px 0px 10px;
+
+        }
+    }
+    .colm{
+        & p{
+            font-size: .8rem;
+        }
+    
+    }
+}
+

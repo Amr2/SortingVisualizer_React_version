@@ -40,7 +40,7 @@ function App() {
           // console.log("test", step);
           Colum_cont.current.children[step.index[1]].classList.add("complete");
           Colum_cont.current.children[step.index[0]].classList.add("complete");
-          Colum_cont.current.children[step.index[1]].innerHTML=`<span>${step.index[2]}</span>`;
+          Colum_cont.current.children[step.index[1]].innerHTML=`<p>${step.index[2]}</p>`;
           Colum_cont.current.children[step.index[1]].style.height=`${step.index[2]+10}%`;
           setTimeout(()=>{
             // console.log("workimg" , step);
@@ -55,7 +55,7 @@ function App() {
           // console.log("test", step);
           Colum_cont.current.children[step.index[1]].classList.add("swaping");
           Colum_cont.current.children[step.index[0]].classList.add("swaping");
-          Colum_cont.current.children[step.index[1]].innerHTML=`<span>${step.index[2]}</span>`;
+          Colum_cont.current.children[step.index[1]].innerHTML=`<p>${step.index[2]}</p>`;
           Colum_cont.current.children[step.index[1]].style.height=`${step.index[2]+10}%`;
           setTimeout(()=>{
             // console.log("workimg" , step);
